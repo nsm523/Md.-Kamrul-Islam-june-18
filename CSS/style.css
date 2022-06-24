@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E7E9EB;
+}
+
+.head {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 70px;
+    background: url(../images/bg.jpg) no-repeat center / cover;
+    text-shadow: 0 2px 5px #000;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    color: aqua;
+    font-variant: small-caps;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin: auto;
+    text-align: right;
+    font-size: 20px;
+    word-spacing: 30px;
+    letter-spacing: 1px;
+    padding: 14px 28px;
+    background-color: dodgerblue;
+}
+
+.nav1 {
+    box-shadow: 1px solid #000;
+    padding: 5px 5px;
+    border-radius: 6px;
+    color: #000;
+    background: lightgreen;
+    text-decoration: none;
+    font-family: arial;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.nav1:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.nav2 {
+    box-shadow: 1px solid #000;
+    padding: 5px 5px;
+    border-radius: 6px;
+    color: #000;
+    background: lightgreen;
+    text-decoration: none;
+    font-family: arial;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.nav2:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.nav3 {
+    box-shadow: 1px solid #000;
+    padding: 5px 5px;
+    border-radius: 6px;
+    color: #000;
+    background: lightgreen;
+    text-decoration: none;
+    font-family: arial;
+    box-shadow: 2px 2px 4px #000;
+}
+
+.nav3:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+.pname {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    padding: 24px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 0px 2px 8px lightseagreen;
+    font-family: Arial;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-variant: small-caps;
+}
+
+.pro {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 80px;
+    column-gap: 70px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.apple {
+    background: url(../images/rsz_1apple.jpg) no-repeat center / cover;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+button {
+    font-size: 25px;
+    margin-top: 101%;
+    cursor: pointer;
+    background: lightseagreen;
+    box-shadow: 2px 2px 4px #000;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+button:hover {
+    background: red;
+}
+
+
+.guava {
+    background: url(../images/rsz_guava.jpg) no-repeat center / cover;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+button {
+    font-size: 25px;
+    margin-top: 101%;
+    cursor: pointer;
+    background: lightseagreen;
+    box-shadow: 2px 2px 4px #000;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+button:hover {
+    background: red;
+}
+
+
+.jackfruit {
+    background: url(../images/rsz_jackfruit.jpg) no-repeat center / cover;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+button {
+    font-size: 25px;
+    margin-top: 101%;
+    cursor: pointer;
+    background: lightseagreen;
+    box-shadow: 2px 2px 4px #000;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+button:hover {
+    background: red;
+}
+
+
+.lychees {
+    background: url(../images/rsz_lychees.jpg) no-repeat center / cover;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+button {
+    font-size: 25px;
+    margin-top: 101%;
+    cursor: pointer;
+    background: lightseagreen;
+    box-shadow: 2px 2px 4px #000;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+button:hover {
+    background: red;
+}
+
+
+.orange {
+    background: url(../images/rsz_orange.jpg) no-repeat center / cover;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+button {
+    font-size: 25px;
+    margin-top: 101%;
+    cursor: pointer;
+    background: lightseagreen;
+    box-shadow: 2px 2px 4px #000;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+button:hover {
+    background: red;
+}
+
+
+.mango {
+    background: url(../images/rsz_mango.jpg) no-repeat center / cover;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+button {
+    font-size: 25px;
+    margin-top: 101%;
+    cursor: pointer;
+    background: lightseagreen;
+    box-shadow: 2px 2px 4px #000;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+button:hover {
+    background: red;
+}
+
+.foot {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 36px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    background-color: #000;
+    color: #fff;
+}
+
+.about {
+    align-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.A {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 42px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-shadow: 0px 2px 8px lightseagreen;
+    font-variant: small-caps;
+}
+
+.a {
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    padding-left: 150px;
+    padding-right: 150px;
+    font-family: arial;
+    padding-top: 24px;
+}
+
+.conhead {
+    text-align: center;
+    font-size: 42px;
+    text-shadow: 1px 1px 4px;
+    font-family: arial;
+    font-weight: lighter;
+    padding-top: 18px;
+    font-variant: small-caps;
+    text-shadow: 0px 2px 8px lightseagreen;
+}
+
+.td {
+    text-align: center;
+    font-size: 18px;
+    font-family: arial;
+    font-weight: normal;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.main1 {
+    width: 100%;
+    display: flex;
+    margin-top: 24px;
+}
+
+
+.main1 > ul {
+    margin: auto auto -44px auto;
+    display: flex;
+}
+
+
+.main1 > ul > li {
+    list-style: none;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.main1 > ul > li > a {
+    text-decoration: none;
+    color: #000;
+    line-height: 40px;
+    border: 1px solid #000;
+    display: block;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    position: relative;
+}
+
+
+.main1 > ul > li:hover::before {
+    top: 0;
+}
+
+
+.main1 > ul > li:hover > a {
+    color: blue;
+}
+
+
+.main1 > ul > li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
